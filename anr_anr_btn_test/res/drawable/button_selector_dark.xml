@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    
+
+  <item 
+	android:state_pressed="true" 
+	android:drawable="@drawable/btn_anr_pressed_holo_dark" />
+
+  <item 
+	android:state_focused="true" 
+	android:drawable="@drawable/btn_anr_focused_holo_dark" />
+
+    <item 
+	android:state_enabled="false" 
+	android:drawable="@drawable/btn_anr_disabled_holo_dark" />
+  
+  <!-- this must be last  - it is the 'default' case, like a switch stmt -->
+    <item android:drawable="@drawable/btn_anr_normal_holo_dark" />
+  
+</selector>
+
+<!-- 
+btn_anr_disabled_focused_holo_dark.9.png
+-->

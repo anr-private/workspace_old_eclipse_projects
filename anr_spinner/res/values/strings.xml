@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello from anr_spinner</string>
+    <string name="app_name">Anr_spinner</string>
+    <string-array name="presidents_array">
+        <item>Dwight D. Eisenhower</item>
+        <item>John F. Kennedy</item>
+        <item>Lyndon B. Johnson</item>
+        <item>Richard Nixon</item>
+        <item>Gerald Ford</item>
+        <item>Jimmy Carter</item>
+        <item>Ronald Reagan</item>
+        <item>George H. W. Bush</item>
+        <item>Bill Clinton</item>
+        <item>George W. Bush</item>
+        <item>Barack Obama</item>
+    </string-array>
+    <string-array name="presidents_big_array">
+        <item>Dwight D. Eisenhower</item>
+        <item>John F. Kennedy</item>
+        <item>Lyndon B. Johnson</item>
+        <item>Richard Nixon</item>
+        <item>Gerald Ford</item>
+        <item>Jimmy Carter</item>
+        <item>Ronald Reagan</item>
+        <item>George H. W. Bush</item>
+        <item>Bill Clinton</item>
+        <item>George W. Bush</item>
+        <item>Barack Obama</item>
+        <item>AADwight D. Eisenhower</item>
+        <item>AAJohn F. Kennedy</item>
+        <item>AALyndon B. Johnson</item>
+        <item>AARichard Nixon</item>
+        <item>AAGerald Ford</item>
+        <item>AAJimmy Carter</item>
+        <item>AARonald Reagan</item>
+        <item>AAGeorge H. W. Bush</item>
+        <item>AABill Clinton</item>
+        <item>AAGeorge W. Bush</item>
+        <item>AABarack Obama</item>
+    </string-array>    
+    <string-array name="presidents_huge_array">
+        <item>Dwight D. Eisenhower</item>
+        <item>John F. Kennedy</item>
+        <item>Lyndon B. Johnson</item>
+        <item>Richard Nixon</item>
+        <item>Gerald Ford</item>
+        <item>Jimmy Carter</item>
+        <item>Ronald Reagan</item>
+        <item>George H. W. Bush</item>
+        <item>Bill Clinton</item>
+        <item>George W. Bush</item>
+        <item>Barack Obama</item>
+        <item>AADwight D. Eisenhower</item>
+        <item>AAJohn F. Kennedy</item>
+        <item>AALyndon B. Johnson</item>
+        <item>AARichard Nixon</item>
+        <item>AAGerald Ford</item>
+        <item>AAJimmy Carter</item>
+        <item>AARonald Reagan</item>
+        <item>AAGeorge H. W. Bush</item>
+        <item>AABill Clinton</item>
+        <item>AAGeorge W. Bush</item>
+        <item>AABarack Obama</item>
+        <item>BBDwight D. Eisenhower</item>
+        <item>BBJohn F. Kennedy</item>
+        <item>BBLyndon B. Johnson</item>
+        <item>BBRichard Nixon</item>
+        <item>BBGerald Ford</item>
+        <item>BBJimmy Carter</item>
+        <item>BBRonald Reagan</item>
+        <item>BBGeorge H. W. Bush</item>
+        <item>BBBill Clinton</item>
+        <item>BBGeorge W. Bush</item>
+        <item>BBBarack Obama</item>
+    </string-array>
+</resources>

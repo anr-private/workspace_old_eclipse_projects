@@ -1,0 +1,168 @@
+50 	Error in Code
+"Using the same project created in the previous section, add the following statements in bold to the main.xml file:"
+
+This should be "activity2.xml" instead "main.xml" 	5/15/2011 	
+
+
+	54 	Error in Code
+It says:
+startActivityForResult(i, 1);
+
+It should say:
+startActivityForResult(i, request_Code);
+
+The code will still work, since request_Code = 1, but it is better to use the constant. 	7/12/2011 
+
+	
+	119 	Error in Code
+this line must be bolded:
+import android.view.View; 	7/27/11 	
+
+
+	132 	Typo
+The text just below Figure 4-5 reads as follows:
+"The ToogleButton displays..."
+
+it should be:
+"The ToggleButton displays..." 	6/20/11 
+
+	
+	144 	Error in Text
+Title for the Try it Out currently reads "Using the TimePicker Wiew"
+
+Should read "Using the TimePicker View" 	7/13/2011 
+
+	
+	151, 153 	Error in Code
+In the code in bold towards the bottom it says:
+"Date selected:" + datePicker.getMonth() + 1 + ..... etc.
+
+It should be:
+"Date selected:" + (datePicker.getMonth() + 1) + .... etc
+
+This will ensure that the "1" is added; otherwise the output looks like this (assuming the month of June (5) is picked: 51/1/11
+
+With the fix above it will show: 6/1/11
+
+Also on pg 153 in the "how it works" section. 	7/6/11 	
+
+
+
+	159 	Errors in Code
+This line: setContentView(R.layout.main);
+
+commented out, like this:
+// setContentView(R.layout.main);
+
+AND
+
+Instead of using constants 0, 1 and 2, like this:
+
+lstView.setChoiceMode(2); //CHOICE_MODE_MULTIPLE
+
+You could also use:
+
+lstView.setChoiceMode(ListView.CHOICE_MODE_MULTIPLE);
+
+AND
+
+This line:
+
+setListAdapter(new ArrayAdapter(this,
+                android.R.layout.simple_list_item_checked, presidents));
+
+
+Should be bold. 	7/22/11 
+
+
+	
+	186 	Missing Step
+Add step between Step 1 and 2: Add the following <Button> element to the main.xml file:
+
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+<Button android:id="@+id/btn1"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:text="Tap and hold this for more options..." />
+
+</LinearLayout>
+
+	7/28/11 	
+
+
+
+5 	187 	Error in Menu Definition
+The "Menus" application has the following menus defined:
+menu.add(0,3,3, "Item 5");
+menu.add(0,3,3, "Item 6");
+menu.add(0,3,3, "Item 7");
+
+This causes menus 5-7 to display
+"You clicked on Item 4"
+
+Should instead be:
+menu.add(0,4,4, "Item 5");
+menu.add(0,5,5, "Item 6");
+menu.add(0,6,6, "Item 7"); 	6/14/11 	
+
+
+
+	195 	Missing Step
+Insert the line:
+<uses-permission android:name="android.permission.INTERNET" />
+in the manifest tag to make webview work. 	9/12/11 
+
+	
+	270 	Error in Code
+Inside the Note box, SMS_SEND should read SEND_SMS. 	7/13/2011 
+
+	
+	273 	Error in Text
+Try It Out title should be "Updating an Activity When a SMS is Received" 	7/13/2011
+
+ 	
+	279 	Error in Text
+Step 3 of the Try It Out:
+main.xml
+
+should be:
+AndroidManifest.xml 	6/9/11 
+
+
+	
+	286 	Error in Text
+Try It Out title should be "Downloading Images" 	7/13/2011 
+
+	
+	287,297 	Error in Code
+On page 287, the URL for the image: "http://www.streetcar.org/mim/cable/images/cable-01.jpg" 
+is no longer valid.
+
+Replace URL with: "http://www.mayoff.com/5-01cablecarDCP01934.jpg"
+
+The same applies to the URL on page 297. 	5/16/2011 
+
+	
+	302 	Error in Figure
+The figure should select Google APIs. 	7/13/2011 
+
+	
+9 	306 	Error in Code
+Step 2, main.xml should be AndroidManifest.xml. 	5/16/2011 
+
+	
+9 	322 	Error in Code
+You need to add in the following permissions in order for your application to receive location coordinates:
+
+<uses-permission android:name="android.permission.ACCESS_COARSE_LOC ATION">
+<uses-permission android:name="android.permission.ACCESS_FINE_LOCAT ION"> 	5/16/2011 	
+
+	338 	Error in Code
+This line must be bolded:
+import android.util.Log;

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello from anr_time_picker</string>
+    <string name="app_name">Anr_time_picker</string>
+</resources>

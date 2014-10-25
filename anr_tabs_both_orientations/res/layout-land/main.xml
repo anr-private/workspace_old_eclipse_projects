@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost   xmlns:android="http://schemas.android.com/apk/res/android" 
+           android:id="@+id/tabHost"
+           android:layout_width="match_parent" 
+           android:layout_height="match_parent">
+           
+    <LinearLayout android:orientation="horizontal"
+                  android:layout_width="match_parent" 
+                  android:layout_height="match_parent">
+                  
+        <TabWidget android:id="@android:id/tabs" 
+                   android:layout_height="match_parent" 
+                   android:layout_width="wrap_content"
+                   android:layout_weight="0" />
+        
+        <FrameLayout android:id="@android:id/tabcontent"
+                     android:layout_height="match_parent" 
+                     android:layout_width="0dip"
+                     android:layout_weight="1">
+           <!-- 
+            <AnalogClock android:id="@+id/tab1"
+			        android:layout_width="fill_parent" 
+			        android:layout_height="fill_parent"
+			      />
+			
+		      <Button android:id="@+id/tab2"
+		        android:layout_width="fill_parent"
+		        android:layout_height="fill_parent"
+		        android:text="A semi-random button"
+		      />
+            -->
+         </FrameLayout>   
+            
+    </LinearLayout>
+</TabHost>
+
+<!--  NOTES
+To put tabs on the right side, switch the TabWidget and FrameLayout around.
+
+TabWidget needs to be horizontal (it is a subclass of LinearLayout).
+Unfortunately it is hard-coded to be vertical.
+The switch to horizontal must be done in Java code.
+
+ -->

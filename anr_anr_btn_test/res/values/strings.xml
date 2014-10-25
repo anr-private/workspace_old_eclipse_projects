@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello from anr anr btn test</string>
+    <string name="app_name">Anr_anr_btn_test</string>
+    
+    <string name="btn_a_txt">The A BTN</string>
+    <string name="btn_b_txt">The B BTN</string>
+        
+        
+    <string name="btn_1_txt">BTN ONE</string>
+   	<string name="btn_2_txt">BUTTON TWO</string>
+   	<string name="btn_3_txt">The Third BUTTON</string>
+   	<string name="btn_4_txt">AND fourth BUTTON</string>
+   	    
+</resources>

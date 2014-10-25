@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.wst.jsdt.debug.rhino.ui.launch.config.type">
+<stringAttribute key="ecmaversion" value="170"/>
+<booleanAttribute key="logexceptions" value="true"/>
+<intAttribute key="optlevel" value="-1"/>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/anr_listview_chk_fancy/src/com/maranr/anr_listview_chk_fancy/MainActivity.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="script" value="/anr_listview_chk_fancy/src/com/maranr/anr_listview_chk_fancy/MainActivity.java"/>
+<booleanAttribute key="strictmode" value="false"/>
+</launchConfiguration>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello from anr_listview_w_styles</string>
+    <string name="app_name">Anr_listview_w_styles</string>
+    <string name="list_header">THIS IS THE HEADER!</string>
+    <string name="list_footer">THIS IS the FOOTER!</string>
+</resources>

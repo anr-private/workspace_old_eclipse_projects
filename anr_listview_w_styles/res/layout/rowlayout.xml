@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content" android:layout_height="wrap_content">
+	
+	<ImageView android:id="@+id/icon" android:layout_height="wrap_content"
+		android:src="@drawable/icon" android:layout_width="22px"
+		android:layout_marginTop="0px" android:layout_marginBottom="0px" 
+		android:layout_marginLeft="0px" android:layout_marginRight="0px">
+		<!-- NOTE changing bottom margin does not seem to move the image, but
+		     the top margin pushes the image down wrt the text. 
+		-->
+	</ImageView>
+	
+	<TextView android:text="@+id/TextView01" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:id="@+id/rlo_label"
+		android:textSize="30px"></TextView>
+		
+</LinearLayout>

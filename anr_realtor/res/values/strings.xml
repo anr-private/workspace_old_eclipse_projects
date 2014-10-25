@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">ANR Realtor</string>
+    <string name="app_name">Anr_Realtor</string>
+    <string name="app_title_stg">   ANR Realtor System</string>
+    <string name="prop_page_title_stg">ANR Realtor System: 1234 Zenith Rd</string>
+
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello from anr 2 activites: PRESS CENTER key on dpad</string>
+    <string name="app_name">Anrtwoacts</string>
+    <string name="act2_txt">This is ACTIVITY TWO! (Press BACK to go back)</string>
+    <string name="enter_your_name">Please Enter your NAME</string>
+    <string name="act1_instructions">Press the center button on the DPad </string>
+    <string name="act1_namegoeshere">(your name will go here)</string>
+</resources>

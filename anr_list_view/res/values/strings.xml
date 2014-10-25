@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello from anr_list_view</string>
+    <string name="app_name">Anr_list_view</string>
+</resources>

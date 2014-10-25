@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:orientation="vertical" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent" 
+    android:background="#ffFF0000" 
+    > 
+<!--  NOTE bkgnd changed to see what happens  was #ff 00 00 00--> 
+
+
+ <Gallery
+    android:id="@+id/gallery1"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true" 
+    android:layout_alignParentRight="true" 
+    android:layout_alignParentTop="true"  
+    android:background="#ffFFFF00" 
+    />
+    
+<ImageSwitcher 
+    android:id="@+id/switcher1" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:layout_below="@+id/gallery1" 
+    android:layout_alignLeft="@+id/gallery1" 
+    android:layout_alignRight="@+id/gallery1" 
+    android:background="#ffFF00FF" 
+    /> 
+
+<!--  NOTE ON COLORS
+  1. root layout bkgnd is color RED
+  2. gallery bkgnd is YELLOW
+  3. image switcher is magenta (but not seen, except during repaint)
+  4. image switcher shows up with bgnd GREEN because in the factory
+     method in main, a new ImageView is created and bgnd set to green:
+        // in MainActivity.makeView()   - impl of ViewFactory ifc
+        ...
+        imageView.setBackgroundColor(0xFF00FF00)
+ -->
+</RelativeLayout>

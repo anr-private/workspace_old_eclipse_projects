@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello from Diaglog Demo</string>
+    <string name="app_name">DialogDemo</string>
+    <string name="dialog_txt">CLICK ME to show dialog</string>
+    <string name="dialog_txt2">CLICK ME to see progress bar!</string>
+</resources>

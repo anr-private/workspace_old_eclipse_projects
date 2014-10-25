@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello from anr_listview_custom_items</string>
+    <string name="app_name">Anr_listview_custom_items</string>
+    <string name="main_no_items">No ORDERS to display</string>
+</resources>

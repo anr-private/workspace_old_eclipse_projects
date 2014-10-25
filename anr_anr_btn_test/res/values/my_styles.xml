@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    
+<style name="ButtonNormalText" parent="@android:style/Widget.Button">
+    <item name="android:textColor">@android:color/black</item>
+    <item name="android:textSize">12dip</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:height">44dip</item>
+    <item name="android:background">@drawable/button_selector</item>
+    <item name="android:focusable">true</item>
+    <item name="android:clickable">true</item>
+</style>
+
+<style name="ButtonNormalTextWithIcon" parent="ButtonNormalText">
+    <item name="android:drawableLeft">@drawable/anr_icon</item>
+</style>
+
+
+<style name="ButtonNormalTextBlue" parent="@android:style/Widget.Button">
+    <item name="android:textColor">@android:color/white</item>
+    <item name="android:textSize">12dip</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:height">44dip</item>
+    <item name="android:background">@drawable/button_selector_anr_blue</item>
+    <item name="android:focusable">true</item>
+    <item name="android:clickable">true</item>
+</style>
+
+<style name="ButtonNormalTextWithIconBlue" parent="ButtonNormalTextBlue">
+    <item name="android:drawableLeft">@drawable/anr_icon</item>
+</style>
+    
+
+
+</resources>
+

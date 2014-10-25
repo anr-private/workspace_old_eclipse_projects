@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;anr_time_picker&apos;" deleteContents="false" description="Delete resource &apos;anr_time_picker&apos;" element1="/anr_time_picker" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1319082892305"/>&#x0A;<refactoring comment="Delete resource &apos;anr_listview_styled_hdr_ftr&apos;" deleteContents="true" description="Delete resource &apos;anr_listview_styled_hdr_ftr&apos;" element1="/anr_listview_styled_hdr_ftr" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1319317235319"/>
+</session>

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    
+    <!-- = = = =   TITLE BAR  = = = = = = = -->
+    <TextView
+        android:id="@+id/tv_sep1"
+        android:layout_width="fill_parent"
+        android:layout_height="2dip"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:background="#FF333300"
+        android:textColor="#FFFFFFFF"
+        android:text="" /> <!-- sep -->
+    <TextView
+        android:id="@+id/tv_title1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_sep1"
+        android:layout_alignLeft="@+id/tv_sep1"
+        android:background="#FF000088"
+        android:textColor="#CCCC00"
+        android:textSize="22sp"
+        android:gravity="center"
+        android:text="@string/app_title_stg" 
+        />
+    <TextView
+        android:id="@+id/tv_sep2"
+        android:layout_width="fill_parent"
+        android:layout_height="2dip"
+        android:layout_below="@+id/tv_title1"
+        android:layout_alignLeft="@+id/tv_title1"
+        android:background="#FF333300"
+        android:textColor="#FFFFFFFF"
+        android:text="" /> <!-- sep -->
+
+
+    <!-- = = = =   LEFT COLUMN OF ATTRIBS  = = = = = = = -->
+
+	<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/main_table_layout"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+        android:layout_below="@+id/tv_sep2"
+        android:layout_alignLeft="@+id/tv_sep2"
+        android:background="#FF000088"
+	    >
+	  <TableRow>
+	    <LinearLayout
+	        android:id="@+id/linearLayout2"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" 
+	        android:background="#FF000088"
+	    	android:orientation="horizontal"
+	        >
+        	<Button
+	            android:id="@+id/button_c11"
+	            android:layout_width="212dip"
+	            android:layout_height="wrap_content"
+           		android:onClick="selectClient"
+           		android:tag="adams1234"
+	            android:text="1234 Adams Ave" />
+	        <Button
+	            android:id="@+id/button_c12"
+	            android:layout_width="212dip"
+	            android:layout_height="wrap_content"
+           		android:onClick="selectClient"
+           		android:tag="burton2234"
+	            android:text="2234 Burton La" />
+	
+	        <Button
+	            android:id="@+id/button_c13"
+	            android:layout_width="212dip"
+	            android:layout_height="wrap_content"
+           		android:onClick="selectClient"
+           		android:tag="downs4234"
+	            android:text="4234 Downs Dr" />
+
+	        <Button
+	            android:id="@+id/button_c14"
+	            android:layout_width="212dip"
+	            android:layout_height="wrap_content"
+           		android:onClick="selectClient"
+           		android:tag="evans92314"
+	            android:text="92314 Evans Blvd" />
+	
+	        <Button
+	            android:id="@+id/button_c15"
+	            android:layout_width="212dip"
+	            android:layout_height="wrap_content"
+           		android:onClick="selectClient"
+           		android:tag="freud5234"
+	            android:text="5234 Freud Rue" />
+	        <Button
+	            android:id="@+id/button_C16"
+	            android:layout_width="212dip"
+	            android:layout_height="wrap_content"
+           		android:onClick="selectClient"
+           		android:tag="grasse6234"
+	            android:text="6234 Grasse Grn" />
+	        
+	        </LinearLayout>
+	        
+	  </TableRow>
+	  
+	  <TableRow>
+	    <LinearLayout
+	        android:id="@+id/linearLayout2"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" 
+	        android:background="#FF000088"
+	    	android:orientation="horizontal"
+	        >
+	        <Button
+	            android:id="@+id/button_c21"
+	            android:layout_width="212dip"
+	            android:layout_height="wrap_content"
+           		android:onClick="selectClient"
+           		android:tag="higgins7234"
+	            android:text="7234 Higgins Hwy"
+	            android:enabled="true" 
+	            />
+	
+	        <Button
+	            android:id="@+id/button_c22"
+	            android:layout_width="212dip"
+	            android:layout_height="wrap_content"
+           		android:onClick="selectClient"
+           		android:tag="isadora1357"
+	            android:text="1357 Isadora Isle"
+	            android:enabled="true" 
+	            />
+	
+	        <Button
+	            android:id="@+id/button_c23"
+	            android:layout_width="212dip"
+	            android:layout_height="wrap_content"
+           		android:onClick="selectClient"
+           		android:tag=""
+	            android:text="- -"
+	            android:enabled="false" 
+	            />
+	
+	       	<Button
+	            android:id="@+id/button_c24"
+	            android:layout_width="212dip"
+	            android:layout_height="wrap_content"
+           		android:onClick="selectClient"
+           		android:tag=""
+	            android:text="- -"
+	            android:enabled="false" 
+	            />
+	
+			<Button
+	            android:id="@+id/button_c25"
+	            android:layout_width="212dip"
+	            android:layout_height="wrap_content"
+           		android:onClick="selectClient"
+           		android:tag=""
+	            android:text="- -"
+	            android:enabled="false" 
+	            />
+	
+			<Button
+	            android:id="@+id/button_c26"
+	            android:layout_width="212dip"
+	            android:layout_height="wrap_content"
+           		android:onClick="selectClient"
+           		android:tag=""
+	            android:text="- -"
+	            android:enabled="false" 
+	            />
+	  	</LinearLayout>
+	  </TableRow>
+	</TableLayout>
+
+	<!--  DOES NOT WORK
+    <TextView
+        android:id="@+id/tv_sep3"
+        android:layout_width="fill_parent"
+        android:layout_height="2dip"
+        android:layout_below="@+id/main_table_layout"
+        android:layout_alignLeft="@+id/main_table_layout"
+        android:background="#FF333300"
+        android:textColor="#FFFFFFFF"
+        android:text="" /> <!- - sep - ->
+        -->
+	<LinearLayout
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+    	android:orientation="horizontal"
+        android:background="#FF000066"
+        >
+	    <LinearLayout
+	        android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:layout_alignParentLeft="true"
+	    	android:orientation="horizontal"
+	        android:background="#FF000066"
+	        >
+        	<Button
+	            android:id="@+id/button_new_client"
+		          android:layout_width="212dip"
+	            android:layout_height="wrap_content"
+	            android:onClick="addNewClient"
+	            android:text="Add New Client" 
+	            />
+        	</LinearLayout>
+        <TextView
+	        android:id="@+id/tv_title1"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:textColor="#CCCC00"
+	        android:gravity="center"
+	        android:text="There are 8 properties currently available." 
+	        />
+    </LinearLayout>
+    
+</RelativeLayout>
+
+<!--  ### end ### -->

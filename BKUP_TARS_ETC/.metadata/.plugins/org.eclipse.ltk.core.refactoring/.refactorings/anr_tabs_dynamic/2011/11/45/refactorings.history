@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename field &apos;tabs&apos; in &apos;com.maranr.anr_tabs_dynamic.MainActivity&apos; to &apos;tabsHost&apos;&#x0A;- Original project: &apos;anr_tabs_dynamic&apos;&#x0A;- Original element: &apos;com.maranr.anr_tabs_dynamic.MainActivity.tabs&apos;&#x0A;- Renamed element: &apos;com.maranr.anr_tabs_dynamic.MainActivity.tabsHost&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" delegate="false" deprecate="false" description="Rename field &apos;tabs&apos;" flags="589826" getter="false" id="org.eclipse.jdt.ui.rename.field" input="/src&lt;com.maranr.anr_tabs_dynamic{MainActivity.java[MainActivity^tabs" name="tabsHost" references="true" setter="false" stamp="1320415421281" textual="false" version="1.0"/>
+</session>

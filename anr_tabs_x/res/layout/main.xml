@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/tabhost"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  
+  <LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <TabWidget android:id="@android:id/tabs"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+    />
+    
+    <FrameLayout android:id="@android:id/tabcontent"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent">
+
+        <Button android:id="@+id/buttontab"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:text="A semi-random button"
+			android:onClick="addNewTab"
+		/>
+
+		<LinearLayout
+		    android:id="@+id/btns_tab"
+			android:orientation="vertical"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent">
+	      	
+		    <Button android:id="@+id/btn1"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="Btn1"
+		        android:onClick="btnClick"
+		    />
+		        
+		    <Button android:id="@+id/btn2"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="Btn2"
+		        android:onClick="btnClick"
+		    />
+		        
+		</LinearLayout>
+
+		<Button android:id="@+id/buttontab2"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:text="A semi-random button2"
+			android:onClick="addNewTab"
+		/><!--  NOTE The callback addNewTab specified here -->
+      
+      
+      
+      </FrameLayout>
+  </LinearLayout>
+</TabHost>

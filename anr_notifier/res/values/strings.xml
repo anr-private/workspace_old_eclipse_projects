@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, AnrNotifierActivity!</string>
+    <string name="app_name">AnrNotifier</string>
+    <string name="help_stg">Press SHOW. Pull down notifications bar; click on notif, shows \'details\'. Use BACK to go back to main app. Repeat. Can also exit main app after pressing SHOW. Then use notif bar to see \'details\'.</string>
+</resources>

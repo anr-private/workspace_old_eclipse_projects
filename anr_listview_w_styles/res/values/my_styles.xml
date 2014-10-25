@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!--  inherits from android style -->
+    <style name="myStyle" parent="@android:style/TextAppearance.Large">
+       <!-- can add these if desired
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item> -->
+        <item name="android:textColor">#00FF00</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+
+    <style name="myFooterStyle" parent="@android:style/TextAppearance.Medium">
+    	<item name="android:textColor">#00FF00</item>
+    	<item name="android:typeface">serif</item>
+    	
+    </style>
+
+	<!--  inherits from myStyle   
+		 You can specify in list_header's TextView as 'style="@style/myStyle.redcolor"-->
+    <style name="myStyle.redcolor">
+        <item name="android:textColor">#FF0000</item>
+    </style>
+    
+	<!--  inherits from myStyle.redcolor -->
+    <style name="myStyle.redcolor.bigsize">
+        <!-- OVERRIDES TextAppearance.Large  <item name="android:textSize">36sp</item>  -->
+    </style>
+    
+    <!--  ALTERNATIVE naming for my styles: -->
+    <!--  inherits from myStyle.redcolor -->
+    <style name="mysmallsize" parent="myStyle.redcolor">
+        <!-- OVERRIDES TextAppearance.Large or .Medium -->
+        <item name="android:textSize">10sp</item>
+    </style>
+    
+</resources>

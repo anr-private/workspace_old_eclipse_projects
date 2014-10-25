@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+	    android:background="#FF0000FF"
+        android:text="@string/hello" />
+    <!--  This causes the grid to run off the bottom of the screen 
+          because it occupies 180 pix of height.
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="180dip"
+        android:text="@string/hello" />
+    -->
+	<GridView xmlns:android="http://schemas.android.com/apk/res/android" 
+	    android:id="@+id/gridview"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="fill_parent"
+	    android:numColumns="auto_fit"
+	    android:verticalSpacing="10dp"
+	    android:horizontalSpacing="10dp"
+	    android:columnWidth="90dp"
+	    android:stretchMode="columnWidth"
+	    android:gravity="center"
+	    android:background="#FF00FF00"
+	/>
+
+</LinearLayout>
+
+
+
+<!--  
+<GridView xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:id="@+id/gridview"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:numColumns="auto_fit"
+    android:verticalSpacing="10dp"
+    android:horizontalSpacing="10dp"
+    android:columnWidth="90dp"
+    android:stretchMode="columnWidth"
+    android:gravity="center"
+    android:background="#FF00FF00"
+/>
+-->

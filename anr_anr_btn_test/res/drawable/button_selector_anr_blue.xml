@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    
+
+    <!--  these are checked in order, top to bottom -->
+    
+    <item 
+		android:state_enabled="false" 
+		android:drawable="@drawable/btn_anr_normal_blue_disabled" />
+    <item 
+		android:state_enabled="false" 
+		android:drawable="@drawable/btn_anr_normal_blue_disabled" />
+
+    <item 
+		android:state_pressed="true" 
+		android:drawable="@drawable/btn_anr_normal_blue_pressed" />
+
+	<item 
+		android:state_focused="true" 
+		android:drawable="@drawable/btn_anr_normal_blue_focused" />
+
+	  <!-- this must be last  - it is the 'default' case, like a switch stmt -->
+    <item android:drawable="@drawable/btn_anr_normal_blue" />
+  
+</selector>
+
+<!-- 
+btn_anr_disabled_focused_holo_light.9.png
+btn_anr_disabled_holo_light.9.png
+-->

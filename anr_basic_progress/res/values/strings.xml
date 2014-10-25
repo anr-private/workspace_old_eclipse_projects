@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello from anr_basic_progress</string>
+    <string name="app_name">Anr_basic_progress</string>
+    <string name="marker">This is TextView after progress view</string>
+</resources>
